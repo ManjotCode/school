@@ -1,3 +1,9 @@
+body{
+    background-color: rgba(26,25,25,0.897);
+    margin: 0;
+    padding: 0;
+
+}
 .logo{
     height: 45px;
     border-radius: 50%;
@@ -9,7 +15,7 @@
 }
 
 .all-items{
-    background-color:rgba(10, 10, 10, 0.938);
+    background-color:rgba(26, 25, 25, 0.897);
     height: 45px;
     text-align: center;
 
@@ -18,7 +24,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    /*max-width: 1200px; */
     margin: 0 auto;
 }
 ul {
@@ -37,19 +43,19 @@ ul li:last-child {
 a {
     text-decoration: none;
     color: #fff;
-    padding: 24px; 
+    padding: 27px; 
 }
 
 header {
-    background-color: #333;
+    background-color: #0a0a0a;
     color: #fff;
-    padding: 10px 0;
+    padding: 0px 0;
 }
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    /*max-width: 1200px;*/
     margin: 0 auto;
 }
 nav ul {
@@ -89,5 +95,157 @@ h1{
     font-size: 50px;
     margin-top: 1px;
     color: red;
-    
+    font-weight: 95%;
+}
+
+.item-img{
+    height: 100px;
+    border-color: goldenrod;
+}
+
+.item{
+    width: 250px;
+    height: 150px;
+    border: 4px;
+    border-color: red;
+}
+
+.sb-item{
+    height: 100vh;
+    margin: 4px;
+    text-align: center;
+
+
+}
+
+
+.search{
+    height: 19px;
+    margin-left: 0;
+
+}
+
+.box1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: white;
+
+
+}
+.box2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: white;
+
+
+
+}
+.box3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: white;
+
+
+
+}
+.box4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: white;
+
+
+
+}
+.box5{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: white;
+
+
+}
+.box6{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: white;
+
+
+
+}
+.box7{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: white;
+
+
+
+}
+
+
+
+.box8{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: white;
+
+
+
+}
+
+
+
+.box9{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: white;
+
+
+
+}
+
+.display{
+    display: flex;
+}
+
+.margin{
+    margin:25%;
+    margin-top: 0;
+    margin-bottom: 0;
+
+
 }
