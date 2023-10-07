@@ -1,176 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Spring Vling</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .home{
+            color: red;
+            text-align: center;
+            margin: 20%;
+            margin-top: 2%;
+            margin-bottom: 3%;
+
+        }
+
+        .name{
+            font-size: 80px;
+        }
+        .img{
+            
+        }
+        .page{
+            background-color: red;
+            border-radius: 20cap;
+            font-size: 24px;
+            border-color: red;
+
+        }
+
+    </style>
 </head>
-
 <body>
-    <header>
-        <nav>
-            <div class="logo-img"><img class="logo" src="logo.jpeg" alt=""></div>
-            <ul>
-                <li><a class="a" href="#">Home</a></li>
-                <li><a class="a" href="#">Products</a></li>
-                <li><a class="a" href="#">About</a></li>
-                <li><a class="a" href="#">Contact</a></li>
-                <input type="text">
-                <img class="search" src="new.png" alt="">
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="all-items">
-            <nav>
-                <ul>
-                    <li><a href="#">All</a></li>
-                    <li><a href="#">Sell</a></li>
-                    <li><a href="#">Today's Deals</a></li>
-                    <li><a href="#">Electronics</a></li>
-                    <li><a href="#">Customer Service</a></li>
-                </ul>
-            </nav>
+    <div class="home">
+        <p class="name">Welcome To <br>Spring Vling.com</p>
+        <img class="img" src="dark-logo.png" alt="">
+        <br>
+        <button id="page" class="page"><b>Visite site</b></button>
 
-        </div>
-        <h1><b>Spring Vling</b></h1>
-        <div class="margin">
-            <div class="display">
-                <div class="box1">
-                    <div class="mid-items">
-                        <div id="item" class="item">
-                            <div class="sb-item">
-                                <p></p>
-                                <img class="item-img" src="bollte.jpg" alt="">
-                                <br>
-                                <button>Shop now</button>
-                                <br>
-                                <button>Add to cart</button>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="box2">
-                    <div class="mid-items">
-                        <div id="item" class="item">
-                            <div class="sb-item">
-                                <img class="item-img" src="bollte.jpg " alt="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="box3">
-                    <div class="mid-items">
-                        <div id="item" class="item">
-                            <div class="sb-item">
-                                <img class="item-img" src="bollte.jpg " alt="">
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="display">
-                <div class="box4">
-                    <div class="mid-items">
-                        <div id="item" class="item">
-                            <div class="sb-item">
-                                <img class="item-img" src="bollte.jpg " alt="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="box5">
-                    <div class="mid-items">
-                        <div id="item" class="item">
-                            <div class="sb-item">
-                                <img class="item-img" src="bollte.jpg " alt="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="box6">
-                    <div class="mid-items">
-                        <div id="item" class="item">
-                            <div class="sb-item">
-                                <img class="item-img" src="bollte.jpg " alt="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="display">
-                <div class="box7">
-                    <div class="mid-items">
-                        <div id="item" class="item">
-                            <div class="sb-item">
-                                <img class="item-img" src="bollte.jpg " alt="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="box8">
-                    <div class="mid-items">
-                        <div id="item" class="item">
-                            <div class="sb-item">
-                                <img class="item-img" src="bollte.jpg " alt="">
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <div class="box9">
-                    <div class="mid-items">
-                        <div id="item" class="item">
-                            <div class="sb-item">
-                                <img class="item-img" src="bollte.jpg " alt="">
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                  </div>
-            </div>
-        </div>
-    </main>
-
-
-
-
-    <p>
-
-    </p>
-    <p>
-    </p>
-    <footer>
-        <p>&copy; Spring Vling</p>
-    </footer>
-    <script src="script.js"></script>
-
+    </div>
 </body>
+<script>
+    var home= document.getElementById("page");
 
+    home.addEventListener("click",function(){
+     window.open("home.html");
+    });
+</script>
 </html>

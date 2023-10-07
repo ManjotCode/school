@@ -1,6 +1,7 @@
-var item1= document.getElementById("item");
+var search1= document.getElementById("search");
 
-item1.addEventListener("click",,function(){
+search1.addEventListener("click",function(){
     window.open("item1.html");
 
 });
+
