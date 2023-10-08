@@ -1,7 +1,7 @@
 body{
     background-color: rgb(41, 44, 44);
     color: white                ;
-    margin: 0;
+    margin: 3px;
     padding: 0;
 
 }
@@ -99,20 +99,17 @@ h1{
     font-weight: 95%;
 }
 
-.item-img{
-    height: 200px;
-}
 
 .item{
-    width: 250px;
-    height: 250px;
+    width: 10%;
+    height: 340px;
 }
 
 .sb-item{
-    height: 100vh;
-    margin: 4px;
-    text-align: center;
-
+    height: 123vh;
+    margin-left: 3px;
+    text-align: left;
+    color: black;
 
 }
 
@@ -125,111 +122,16 @@ h1{
 
 .box1{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     grid-template-columns: repeat(3, 100px);
     gap: 10px;
-    width: 300px;
+    width: 20px;
     border: 2px solid black;
     background-color: white;
-
-
-}
-.box2{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 100px);
-    gap: 10px;
-    width: 300px;
-    border: 2px solid black;
-    background-color: white;
-
-
-}
-.box3{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 100px);
-    gap: 10px;
-    width: 300px;
-    border: 2px solid black;
-    background-color: white;
-
-
-
-}
-.box4{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 100px);
-    gap: 10px;
-    width: 300px;
-    border: 2px solid black;
-    background-color: white;
-
-
-
-}
-.box5{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 100px);
-    gap: 10px;
-    width: 300px;
-    border: 2px solid black;
-    background-color: white;
-
-}
-.box6{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 100px);
-    gap: 10px;
-    width: 300px;
-    border: 2px solid black;
-    background-color: white;
-
-
-
-}
-.box7{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 100px);
-    gap: 10px;
-    width: 300px;
-    border: 2px solid black;
-    background-color: white;
-
-
-
-}
-
-
-
-.box8{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 100px);
-    gap: 10px;
-    width: 300px;
-    border: 2px solid black;
-    background-color: white;
-
-
-
-}
-
-
-
-.box9{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 100px);
-    gap: 10px;
-    width: 300px;
-    border: 2px solid black;
-    background-color: white;
-
+    color: black;
+    margin-bottom: 20%;
+    margin-left: 9%;
+    margin-right: 9%;
 
 
 }
@@ -239,9 +141,88 @@ h1{
 }
 
 .margin{
-    margin:20%;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin:40%;
+    margin-top:0px;
+    margin-bottom: 5%;
+    margin-left: 25px;
+    margin-right: 55px;
+    height: 560px;
+    background-color: white;
+    color: black;
+    width: 300px;
+    border: 2px solid white;
+    display: flex;
 
 
+}
+
+
+
+.tex-tittle{
+    margin-bottom: 1px;
+}
+
+.a{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: large;
+    
+}
+
+.a:hover{
+    color: rgba(41, 44, 206, 0.808);
+    text-align: center;
+}
+
+.box{
+    width: 300px;
+}
+
+.cart{
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 4px;
+    background-color: goldenrod;
+    font-size: large;
+    border: 2 solid black;
+}
+
+.cart:hover{
+    text-align: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-top: 4px;
+    background-color: goldenrod;
+    font-size: large;
+    border: 2 solid black;
+    color:white;
+}
+
+.price{
+    text-decoration: 
+    line-through;
+    color: #ccc;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.div-price{
+    font-size: 30px;
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
+
+.text-img{
+    padding-bottom: 0;
+    padding: 0;
+}
+
+.div-row{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Three equal-width columns */
+    grid-template-rows: repeat(3, 1fr); /* Three equal-height rows */
+    gap: 10px; /* Gap between grid items */
+    width: 370px; /* Set the width of the grid container */
+    height: 550px; 
 }
