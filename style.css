@@ -3,7 +3,11 @@ body{
     color: white                ;
     margin: 3px;
     padding: 0;
-
+    /*font-family: 'Playfair Display SC', serif;
+font-family: 'Poppins', sans-serif;*/
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Poppins', sans-serif;
 }
 .logo{
     height: 45px;
@@ -97,6 +101,7 @@ h1{
     margin-top: 1px;
     color: red;
     font-weight: 95%;
+    font-family: 'Kaushan Script', cursive;
 }
 
 
@@ -178,13 +183,56 @@ h1{
     width: 300px;
 }
 
+.cart1{
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 4px;
+    background-color:#2360dce3;
+    font-size: large;
+    color: white;
+    border: 2 solid black;
+}
+
+.cart1:hover{
+    text-align: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-top: 4px;
+    background-color:#FCD200;
+    font-size: large;
+    border: 2 solid black;
+    color:white;
+}
+.cart2{
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 4px;
+    background-color:#2360dce3;
+    font-size: large;
+    color: white;
+    border: 2 solid black;
+}
+
+.cart2:hover{
+    text-align: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-top: 4px;
+    background-color:#FCD200;
+    font-size: large;
+    border: 2 solid black;
+    color:white;
+}
 .cart{
     text-align: center;
     justify-content: center;
     margin-left: 100px;
     margin-top: 4px;
-    background-color: goldenrod;
+    background-color:#2360dce3;
     font-size: large;
+    color: white;
     border: 2 solid black;
 }
 
@@ -193,7 +241,7 @@ h1{
     justify-content: center;
     margin-left: 98px;
     margin-top: 4px;
-    background-color: goldenrod;
+    background-color:#2360dce3;
     font-size: large;
     border: 2 solid black;
     color:white;
