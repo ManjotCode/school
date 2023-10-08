@@ -151,7 +151,7 @@ h1{
     margin-bottom: 5%;
     margin-left: 25px;
     margin-right: 55px;
-    height: 560px;
+    height: 620px;
     background-color: white;
     color: black;
     width: 300px;
@@ -188,16 +188,16 @@ h1{
     justify-content: center;
     margin-left: 100px;
     margin-top: 4px;
-    background-color:#2360dce3;
+    background-color:#FCD200;
     font-size: large;
-    color: white;
+    color: rgb(0, 0, 0);
     border: 2 solid black;
 }
 
 .cart1:hover{
     text-align: center;
     justify-content: center;
-    margin-left: 98px;
+    margin-left: 100px;
     margin-top: 4px;
     background-color:#FCD200;
     font-size: large;
@@ -209,7 +209,7 @@ h1{
     justify-content: center;
     margin-left: 100px;
     margin-top: 4px;
-    background-color:#2360dce3;
+    background-color:#1a3bdee3;
     font-size: large;
     color: white;
     border: 2 solid black;
@@ -218,7 +218,7 @@ h1{
 .cart2:hover{
     text-align: center;
     justify-content: center;
-    margin-left: 98px;
+    margin-left: 100px;
     margin-top: 4px;
     background-color:#FCD200;
     font-size: large;
@@ -230,7 +230,7 @@ h1{
     justify-content: center;
     margin-left: 100px;
     margin-top: 4px;
-    background-color:#2360dce3;
+    background-color:#0095ffce;
     font-size: large;
     color: white;
     border: 2 solid black;
@@ -239,7 +239,7 @@ h1{
 .cart:hover{
     text-align: center;
     justify-content: center;
-    margin-left: 98px;
+    margin-left: 100px;
     margin-top: 4px;
     background-color:#2360dce3;
     font-size: large;
