@@ -120,7 +120,7 @@ h1{
 
 
 .search{
-    height: 19px;
+    height: 24px;
     margin-left: 0;
 
 }
@@ -264,13 +264,19 @@ h1{
 .text-img{
     padding-bottom: 0;
     padding: 0;
+    width: 400px;
 }
 
 .div-row{
     display: grid;
-    grid-template-columns: repeat(6, 1fr); /* Three equal-width columns */
-    grid-template-rows: repeat(3, 1fr); /* Three equal-height rows */
-    gap: 10px; /* Gap between grid items */
-    width: 370px; /* Set the width of the grid container */
+    grid-template-columns: repeat(6, 1fr); 
+    grid-template-rows: repeat(3, 1fr); 
+    gap: 10px; 
+    width: 370px; 
     height: 550px; 
+}
+
+.buta{
+    text-align: center;
+    margin-left: -27px;
 }

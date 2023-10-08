@@ -5,3 +5,10 @@ search1.addEventListener("click",function(){
 
 });
 
+var by = document.getElementById("buy now");
+
+by.addEventListener("click",function(){
+    window.open("item1.html");
+
+});
+
