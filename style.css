@@ -104,6 +104,12 @@ h1{
     font-family: 'Kaushan Script', cursive;
 }
 
+.logo-text{
+    font-family: 'Kaushan Script', cursive;
+    color: red;
+    font-size: large;
+    margin-left: 1px;
+}
 
 .item{
     width: 10%;
@@ -149,8 +155,8 @@ h1{
     margin:40%;
     margin-top:0px;
     margin-bottom: 5%;
-    margin-left: 25px;
-    margin-right: 55px;
+    margin-left: 35px;
+    margin-right: 35px;
     height: 620px;
     background-color: white;
     color: black;
