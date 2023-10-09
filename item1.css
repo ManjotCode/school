@@ -1,6 +1,6 @@
 .it-h1{
     text-align: center;
-    margin-left: 550px;
+    margin-left: 50px;
     margin-bottom: 12px;
 
 }
@@ -37,7 +37,8 @@
     margin-left: 80px;
     margin-right: 0;
     height: 10;
-    width: 720px;
+    max-width: 620px;
+    font-size: larger;
 }
 
 .title{
@@ -45,15 +46,18 @@
 }
 
 .it-price{
-    margin-left: 40%;
-    background-color: aliceblue;
+    font-family: 'Lora', serif;
+    border-radius: 5%;
+    margin-left: 130px;
     color: black;
     text-align: right;
     justify-content: right;
+    max-height: 370px;
+    max-width: 600px;
+    border: 2px solid white;
 }
 .div-it-image{
     background-color:rgba(26, 25, 25, 0.897);
-    height: 100vh;
     padding: 10px;
     width: 120px;
 }
@@ -76,4 +80,89 @@
 
 .sb-i-text{
     width: 300px;
+}
+
+.price-title{
+    text-align: left;
+    padding: 15px;
+    border-radius: 5%;
+    color:white;
+}
+
+.dd{
+    color: aqua;
+}
+
+.quantity-selector{
+    text-align: center;
+}
+
+.div-about{
+    font-family: 'Lora', serif;
+}
+
+.it-price-price{
+    font-size: 32px;
+    margin-bottom: 0;
+    
+}
+
+.it-price-delivery{
+    border: 0;
+
+
+}
+
+.it-about{
+    font-size: 150%;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.it-title{
+    font-size: 40px;
+    font-family: 'Kaushan Script', cursive;
+  
+}
+
+.text-list{
+    list-style-type: disc;
+
+}
+
+.it-price{
+    font-size: larger;
+}
+
+.it-cart{
+    text-align: center;
+    justify-content: center;
+    margin-top: 6px;
+    background-color:#FCD200;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    border:0;
+    border-radius: 12px;
+}
+.it-cart:hover{
+    text-align: center;
+    justify-content: center;
+    margin-top: 6px;
+    background-color:#FCD200;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    border: 0;
+    border-radius: 12px;
+}
+
+.order-a{
+    color: black;
+}
+.stock{
+    color: rgba(22, 216, 22, 0.904);
+    margin-left: 25px;
+}
+.nav-text{
+    margin-top: 12px;
 }

@@ -189,27 +189,7 @@ h1{
     width: 300px;
 }
 
-.cart1{
-    text-align: center;
-    justify-content: center;
-    margin-left: 100px;
-    margin-top: 4px;
-    background-color:#FCD200;
-    font-size: large;
-    color: rgb(0, 0, 0);
-    border: 2 solid black;
-}
 
-.cart1:hover{
-    text-align: center;
-    justify-content: center;
-    margin-left: 100px;
-    margin-top: 4px;
-    background-color:#FCD200;
-    font-size: large;
-    border: 2 solid black;
-    color:white;
-}
 .cart2{
     text-align: center;
     justify-content: center;
