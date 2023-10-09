@@ -1,12 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Playfair+Display+SC:ital@1&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .cen {
+            width: 500px;
+            height: 400px;
+            margin-left: 35%;
+            margin-right: 20%;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        .cen2{
+            border: 2px solid white;
+            border-radius: 5%;
+            padding: 20px;
+            width: 500px;
+        }
+        body{
+           font-family: 'Playfair Display', serif;
+           font-size: 25px;
+        }
+        .butt{
+            background-color: red;
+            border-radius: 50cap;
+            font-size:17px; 
+            border: 0;
+            margin-left:95px ;
+            margin-right:14px;
+        }            
+        .butt1{
+            background-color: red;
+            border-radius: 50cap;
+            font-size:17px; 
+            border: 0;
+            margin-left:5px ;
+            margin-right:14px;
+            
+        }
+        input{
+            height: 18px;
+
+        }
+        .thanks{
+            color: rgb(255, 0, 0);
+            font-size: 50px;
+            text-align: center;
+        }
+    </style>
+
 </head>
+
 <body>
+    <h1>FILL REQUIREMENT</h1>
+    <div class="cen">
+        <div class="cen2">
+                <label for="#">Name:</label>
+                <input type="text">
+                <br>
+                <br>
+                <label for="#">Mobile Number:</label>
+                <input type="text">
+                <br>
+                <br>
+                <label for="#">Country:</label>
+                <input type="text" name="" id="">
+                <br>
+                <br>
+                <label for="#">State:</label>
+                <input type="text">
+                <br>
+                <br>
+                <label for="#">City:</label>
+                <input type="text" name="" id="">
+                <br>
+                <br>
+                <label for="payment">Payment Option:</label>
+                <select id="payment" name="payment" required>
+                    <option value="cash">Cash on Delivery</option>
+                    <option value="online">Online Payment</option>
+                </select>
+                <br>
+                <br>
+                <button class="butt">&nbsp;Cancel&nbsp;</button>
+                <button class="butt1" id="showButton">&nbsp;Place Order&nbsp;</button>
+
+        </div>
+        <p class="thanks" id="displayText" style="display: none;">&nbsp;&nbsp; Order Placed <br>&nbsp;&nbsp;Thanks For your Support</p>
+
+    </div>
     
+    <script>
+        // Get references to the button and the text element
+const showButton = document.getElementById('showButton');
+const displayText = document.getElementById('displayText');
+
+// Add a click event listener to the button
+showButton.addEventListener('click', function() {
+    // Toggle the visibility of the text element
+    if (displayText.style.display === 'none') {
+        displayText.style.display = 'block';
+    } else {
+        displayText.style.display = 'none';
+    }
+});
+
+    </script>
 </body>
+
 </html>
